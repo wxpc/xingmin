@@ -1,0 +1,245 @@
+.banner-content {
+    width: 100%;
+    height: 700px;
+    background: url("../images/develop-banner.jpg") no-repeat;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+}
+
+.banner-content span {
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0 0 300px 300px;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.middle-content {
+    width: 1000px;
+    height: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.m1 {
+    width: 1000px;
+    height: 100px;
+    display: inline-flex;
+    margin: 50px 0 50px 0;
+}
+
+.m1 div {
+    height: 100px;
+    width: 250px;
+}
+
+.m1 div:hover {
+    border-bottom: 1px solid orange;
+}
+
+.m1 p {
+    color: grey;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.m2 {
+    width: 1000px;
+    height: 700px;
+    display: inline-flex;
+}
+
+.m2-1 {
+    width: 200px;
+    height: 420px;
+}
+
+.m2-1 div {
+    width: inherit;
+    height: 70px;
+}
+
+.m2-1 div p {
+    width: inherit;
+    height: 40px;
+    
+    /*color: white;*/
+    text-align: justify;
+    line-height: 40px;
+}
+
+.m2-1 div:nth-child(1) p {
+    background: orange;
+    color: white;
+}
+
+.m2-2 {
+    width: 845px;
+    height: 800px;
+}
+
+.m2-2 div:nth-child(1) {
+    width: inherit;;
+    height: 250px;
+    border-bottom: 0.5px solid #bababa;
+    margin-left: 50px;
+}
+
+.m2-2 div:nth-child(2) {
+    width: inherit;;
+    height: 480px;
+    margin: 50px 0 0 50px;
+    background: url("../images/develop-content.jpg") no-repeat;
+}
+
+.m2-2 div p:nth-child(1) {
+    font-size: 24px;
+    color: #828282;
+    text-align: justify;
+    font-weight: 100;
+    margin: 0 0 50px 0;
+}
+
+.m2-2 div p:nth-child(2) {
+    font-size: 20px;
+    color: #828282;
+    text-align: justify;
+    font-weight: 100;
+    margin: 0 0 50px 0;
+}
+
+.last-content {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.last-content div {
+    width: 900px;
+    height: inherit;
+    display: inline-flex;
+}
+
+.last-content div div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.last-content div div img {
+    width: 77px;
+    height: 77px;
+    margin: 100px auto;
+}
+
+.last-content span {
+    bottom: 60px;
+    left: 78px;
+    position: absolute;
+    color: #bababa;
+}
+
+.last-content div div:nth-child(1) {
+    /*background: url("../images/d-1.jpg") no-repeat;*/
+    border-right: 0.5px solid #bababa;
+
+}
+
+.last-content div div:nth-child(2) {
+    /*background: url("../images/d-2.jpg") no-repeat;*/
+    border-right: 0.5px solid #bababa;
+}
+
+.last-content div div:nth-child(3) {
+    /*background: url("../images/d-3.jpg") no-repeat;*/
+}
+
+.bottom {
+    width: 100%;
+    height: 500px;
+    background-color: #545454;
+    text-align: center;
+    /*margin-top: -10px;*/
+}
+
+.bottom-1 {
+    width: 740px;
+    height: 380px;
+    margin: 0 auto;
+    border-bottom: 2px solid #b1b1b1;
+    display: inline-flex;
+}
+
+.bottom_1 {
+    margin-right: 80px;
+/*    width: 20%;
+    float: left;*/
+}
+
+.bottom-1 ul {
+    width: 20%;
+    height: inherit;
+    display: inline;
+}
+
+.bottom-1 ul li{
+    list-style-type: none;
+    line-height: 40px;
+    text-align: left;
+}
+
+.bottom-1 ul li:first-child {
+    margin-top: 45px;
+    font-size: 18px;
+    height: 70px;
+    line-height: 50px;
+    color: white;
+}
+
+.bottom-1 ul a{
+    color: white;
+    text-decoration: none;
+    width: 10%;
+}
+
+.bottom-2 {
+    margin-top: 35px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+
+.member_ul {
+    position:absolute;
+    top:110px;
+    margin-left:115px;
+    background:#fff;
+    width:100px;
+    height:310px;
+    border-top:none;
+    display:none;
+}
+.member_ul li {
+    height:20px;
+    line-height:25px;
+    text-indent:20px;
+    letter-spacing:1px;
+    margin-left: -15px !important;
+    height: 50px !important;
+}
+.member_ul a {
+    display:block;
+    text-decoration:none;
+    color:#333;
+}
